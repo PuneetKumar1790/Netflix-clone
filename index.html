@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind CSS with Codespaces</title>
+    <title>Netflix</title>
     <link href="./dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMU3aTc2aZJ4I4xq/7Qx0SMIIh5KzxN5Bb60jDz" crossorigin="anonymous">
@@ -22,13 +22,15 @@
                     </figure>
                     <div class="flex justify-end pr-56 gap-[10px]">
                         <div>
-                            <select name="" id="" class="bg-black text-white border-[1px] border-white sm:p-[5px_20px] p-[5px_20px] rounded-[5px]">
+                            <select name="" id=""
+                                class="bg-black text-white border-[1px] border-white sm:p-[5px_20px] p-[5px_20px] rounded-[5px]">
                                 <option value="">English</option>
                                 <option value="">Hindi</option>
                             </select>
                         </div>
                         <div>
-                            <button class="bg-red-600 rounded-[5px] text-white text-center h-[35px] w-[60px]">Sign In</button>
+                            <button class="bg-red-600 rounded-[5px] text-white text-center h-[35px] w-[60px]">Sign
+                                In</button>
                         </div>
                     </div>
                 </div>
@@ -36,18 +38,82 @@
             <!-- Header Ends -->
             <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px text-center">
                 <h1 class="sm:text-[50px] text-[35px] text-white font-bold">Unlimited movies, TV shows and more</h1>
-                   <h2 class="text-[20px] py-[15px] text-white">Starts at ₹149. Cancel at any time.</h2>
-                    <p class="text-[20px]  text-white">Ready to watch? Enter your email to create or restart your membership.</p>
+                <h2 class="text-[20px] py-[15px] text-white">Starts at ₹149. Cancel at any time.</h2>
+                <p class="text-[20px]  text-white">Ready to watch? Enter your email to create or restart your
+                    membership.</p>
                 <div class="max-w-[700px] sn:px-[10px] px-[40px] mx-auto mt-[30px] ">
                     <form action="" class="grid sm:grid-cols-[70%_auto] grid-cols-1 gap-[20px]">
-                        <input type="text" class="border-[1px] border-[grey] bg-transparent text-white h-[50px] pl-[20px]" placeholder="Email Address">
-                        <button class="text-white bg-[red] py-[7px] px-[10px] rounded-[5px] hover:bg-[rgb(193,17,25)] duration--300 ">Get Started</button>
+                        <input type="text"
+                            class="border-[1px] border-[grey] bg-transparent text-white h-[50px] pl-[20px]"
+                            placeholder="Email Address">
+                        <button
+                            class="text-white bg-[red] py-[7px] px-[10px] rounded-[5px] hover:bg-[rgb(193,17,25)] duration--300 ">Get
+                            Started</button>
                     </form>
 
                 </div>
             </div>
         </div>
     </section>
+    <!-- start enjoy your tv section -->
+    <section class="border-t-[8px] border-t-[#605d5d]  bg-black sm:py-[100px]  py-[50px] ">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class=" items-center grid sm:grid-cols-2 grid-cols-1 ">
+                <div class="text-white">
+                    <h2 class="sm:text-[50px] text-[40px] font-bold">
+                        Enjoy your TV
+                    </h2>
+                    <p class="sm:text-[25px] text-[20px] pt-[30px]">Watch on smart TVs, playStation
+                        ,Xbox,Chromebook,<br>
+                        Apple TV,Blu-ray players and more
+                    </p>
+                </div>
+                <figure class="relative">
+                    <!-- Using percentages to settle video on image properly  -->
+                    <video class="absolute w-[80%] bottom-[20%] left-[10%] z-[1]">
+                        <source src="assets/video-tv-in-0819.mp4" type="">urc
+                    </video>
+                    <!-- bigger z index content will be seen above  -->
+                    <img src="assets/tv.png" alt="Image" srcset="" class="relative z-[2]">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- End enjoy your tv section -->
+
+    <!-- Download Section start -->
+
+    <section class="border-t-[8px] border-t-[#605d5d]  bg-black sm:py-[70px]  py-[50px]  ">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class=" items-center grid sm:grid-cols-2 grid-cols-1 ">
+                <figure class="relative sm:order-1 order-2"> // order is used to change its sequence of position
+                    <img src="assets/mobile-0819.jpg" alt="" srcset="">
+                    <div
+                        class="sm:w-[60%]  w-[80%] absolute sm:left-[20%] left-[10%] border-[1px] border-[#ccc] bottom-[0px] grid grid-cols-[70%_auto] bg-black items-center">
+                        <div class="grid grid-cols-[25%_auto] p-[10px] gap-[10px] items-center">
+                            <img src="assets/boxshot.png" alt="" srcset="">
+                            <div class="text-white">
+                                <h3 class="font-bold">Stranger Things</h3>
+                                <b class="text-blue-900">Downloading</b>
+                            </div>
+                        </div>
+                        <div><img src="assets/download-icon.gif" alt="" srcset=""></div>
+                    </div>
+                </figure>
+                <div class="text-white sm:order-2 order-1">
+                    <h2 class="sm:text-[50px] text-[40px] font-bold sm:leading-[65px] leading-[50px]">
+                        Download Your shows to watch offline
+                    </h2>
+                    <p class="sm:text-[25px] text-[20px] pt-[30px]">Save your favourites easily and always have
+                        something to watch
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- download section end -->
 </body>
 
 </html>
