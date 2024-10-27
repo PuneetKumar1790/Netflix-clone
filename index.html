@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS with Codespaces</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMU3aTc2aZJ4I4xq/7Qx0SMIIh5KzxN5Bb60jDz" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="w-full h-screen bg-cover bg-center" style="background-image: url('assets/bgimage.jpg')">
+        <div class="w-full h-full bg-[rgba(0,0,0,0.5)]"> <!-- Fixed this line -->
+            <!-- Header starts -->
+            <header class="max-w-[1170px] mx-auto py-[20px]"> <!-- Fixed class syntax -->
+                <div class="grid sm:grid-cols-[30%_auto] px-[10px] min-h-[62.13px] grid-cols-[30%_auto]">
+
+                    <figure>
+                        <img src="assets/asset 0.png" alt="Logo" class="w-[148px]">
+                    </figure>
+                    <div class="flex justify-end pr-56 gap-[10px]">
+                        <div>
+                            <select name="" id="" class="bg-black text-white border-[1px] border-white sm:p-[5px_20px] p-[5px_20px] rounded-[5px]">
+                                <option value="">English</option>
+                                <option value="">Hindi</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="bg-red-600 rounded-[5px] text-white text-center h-[35px] w-[60px]">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header Ends -->
+            <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px text-center">
+                <h1 class="sm:text-[50px] text-[35px] text-white font-bold">Unlimited movies, TV shows and more</h1>
+                   <h2 class="text-[20px] py-[15px] text-white">Starts at ₹149. Cancel at any time.</h2>
+                    <p class="text-[20px]  text-white">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="max-w-[700px] sn:px-[10px] px-[40px] mx-auto mt-[30px] ">
+                    <form action="" class="grid sm:grid-cols-[70%_auto] grid-cols-1 gap-[20px]">
+                        <input type="text" class="border-[1px] border-[grey] bg-transparent text-white h-[50px] pl-[20px]" placeholder="Email Address">
+                        <button class="text-white bg-[red] py-[7px] px-[10px] rounded-[5px] hover:bg-[rgb(193,17,25)] duration--300 ">Get Started</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
