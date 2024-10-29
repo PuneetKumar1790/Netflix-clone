@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
         integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMU3aTc2aZJ4I4xq/7Qx0SMIIh5KzxN5Bb60jDz" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <section class="w-full h-screen bg-cover bg-center" style="background-image: url('assets/bgimage.jpg')">
         <div class="w-full h-full bg-[rgba(0,0,0,0.5)]"> <!-- Fixed this line -->
             <!-- Header starts -->
@@ -36,7 +36,7 @@
                 </div>
             </header>
             <!-- Header Ends -->
-            <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center">
+            <div class="max-w-[1170px]  mx-auto sm:py-[210px] py-[50px] text-center">
                 <h1 class="sm:text-[50px] text-[35px] text-white font-bold">Unlimited movies, TV shows and more</h1>
                 <h2 class="text-[20px] py-[15px] text-white">Starts at ₹149. Cancel at any time.</h2>
                 <p class="text-[20px] text-white">Ready to watch? Enter your email to create or restart your membership.</p>
@@ -68,8 +68,8 @@
                 </div>
                 <figure class="relative">
                     <!-- Using percentages to settle video on image properly  -->
-                    <video class="absolute w-[80%] bottom-[20%] left-[10%] z-[1]">
-                        <source src="assets/video-tv-in-0819.mp4" type="">urc
+                    <video class="absolute w-[80%] bottom-[20%] left-[10%] z-[1]" autoplay muted loop>
+                        <source src="assets/video-tv-in-0819.mp4" type="video/mp4">urc
                     </video>
                     <!-- bigger z index content will be seen above  -->
                     <img src="assets/tv.png" alt="Image" srcset="" class="relative z-[2]">
@@ -127,8 +127,8 @@
                 </div>
                 <figure class="relative">
                     <!-- Using percentages to settle video on image properly  -->
-                    <video class="absolute w-[60%] bottom-[40%] left-[20%] z-[1]">
-                        <source src="assets/video-devices-in.mp4" type="">urc
+                    <video class="absolute w-[60%] bottom-[40%] left-[20%] z-[1]"autoplay muted loop>
+                        <source src="assets/video-devices-in.mp4" type="video/mp4">urc
                     </video>
                     <!-- bigger z index content will be seen above  -->
                     <img src="assets/device-pile-in.png" alt="Image" srcset="" class="relative z-[2]">
