@@ -901,10 +901,6 @@ video {
   padding: 5px 20px;
 }
 
-.p-\[\] {
-  padding: ;
-}
-
 .px-\[0px\] {
   padding-left: 0px;
   padding-right: 0px;
@@ -964,22 +960,6 @@ video {
 
 .pt-\[30px\] {
   padding-top: 30px;
-}
-
-.pb-\[467px\] {
-  padding-bottom: 467px;
-}
-
-.pb-\[10067px\] {
-  padding-bottom: 10067px;
-}
-
-.pb-\[4\] {
-  padding-bottom: 4;
-}
-
-.pb-\[467\] {
-  padding-bottom: 467;
 }
 
 .text-center {
@@ -1114,6 +1094,11 @@ video {
     padding-bottom: 150px;
   }
 
+  .sm\:py-\[210px\] {
+    padding-top: 210px;
+    padding-bottom: 210px;
+  }
+
   .sm\:py-\[50px\] {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1129,26 +1114,6 @@ video {
     padding-bottom: 70px;
   }
 
-  .sm\:py-\[467px\] {
-    padding-top: 467px;
-    padding-bottom: 467px;
-  }
-
-  .sm\:py-\[400px\] {
-    padding-top: 400px;
-    padding-bottom: 400px;
-  }
-
-  .sm\:py-\[217px\] {
-    padding-top: 217px;
-    padding-bottom: 217px;
-  }
-
-  .sm\:py-\[210px\] {
-    padding-top: 210px;
-    padding-bottom: 210px;
-  }
-
   .sm\:pl-\[200px\] {
     padding-left: 200px;
   }
@@ -1159,6 +1124,10 @@ video {
 
   .sm\:text-\[30px\] {
     font-size: 30px;
+  }
+
+  .sm\:text-\[40px\] {
+    font-size: 40px;
   }
 
   .sm\:text-\[50px\] {
